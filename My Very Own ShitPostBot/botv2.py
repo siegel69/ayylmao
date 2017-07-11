@@ -56,3 +56,17 @@ def main():
     print(r2.text)
 
 main()
+
+
+
+
+'''
+how to upload code n shit
+
+cd to where git status does not error out(bot shit)
+git add .
+git commit -m "commit message"
+git push
+
+git pull retrieves code from server
+'''
