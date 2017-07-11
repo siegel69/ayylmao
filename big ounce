@@ -1,0 +1,3 @@
+e6ffa141251b77c0d6449a7da2 - bot id
+
+curl -X POST -d '{"bot_id": "e6ffa141251b77c0d6449a7da2", "text": "Hello world"}' -H 'Content-Type: application/json' https://api.groupme.com/v3/bots/post

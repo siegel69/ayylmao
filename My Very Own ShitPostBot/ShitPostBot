@@ -1,0 +1,17 @@
+
+
+def main():
+
+    welcome = "I want to die"
+    print(welcome)
+
+    str = "What is my purpose?"
+
+    ##curl -X POST -d '{"bot": { "name": "Botty McBotFace", "group_id": "20393620"}}' -H 'Content-Type: application/json' https://api.groupme.com/v3/bots?token=6G8SBZocwVRrTSZ300Qe4YIiaEqcGALKSDAlZW4c
+
+    
+    command = "curl -X POST -d '{\"bot_id\": \"13850298e6c9bfa1be1df85520", \"text\": \""+str+"\"}' -H 'Content-Type: application/json' https://api.groupme.com/v3/bots/post"
+
+    print(command)
+
+main()
